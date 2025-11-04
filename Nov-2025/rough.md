@@ -1,5 +1,5 @@
 # XGBoost Tips and Tricks
-Having used XGBoost for many years now, I would like to share some tips and tricks with Kaggle. This techniques have helped me win competitions and build and deploy successful machine learning solutions.
+Having used XGBoost for many years now, I would like to share some tips and tricks with Kaggle. These techniques have helped me win competitions and build and deploy successful machine learning solutions.
 
 Let's discuss Data Science Foundations, XGBoost Fundamentals, Building and Optimizing Models, Scaling XGBoost for Large Data, and Deployment and Inference:
 
