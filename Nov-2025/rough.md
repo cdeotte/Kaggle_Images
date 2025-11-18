@@ -7,9 +7,10 @@ Let's discuss Data Science Foundations, XGBoost Fundamentals, Building and Optim
 Three common techniques in all data science projects are Fast Experimentation, Local Validation, and Exploratory Data Analysis (EDA). Let's discuss these before talking about XGBoost.
 
 ## Fast Experimentation
-The secret to success in any machine learning endeavor is Fast Experimentation. We need to make our local preprocess, feature engineering, model training, inference and evaluation as fast as possible. Then each day we can try more ideas and discover more things to improve our model's performance.
+The secret to success in any machine learning endeavor is Fast Experimentation. We need to make our local preprocess, feature engineering, model training, inference and evaluation as fast as possible. Then each day we can try more ideas and discover more things to improve our model's performance. 
 
-Using GPU vs. CPU is the number one trick to accelerate speed. My favorite libraries are NVIDIA cuDF and cuML which accelerate dataframe operations and ML model train/infer respectively.
+Using GPU vs. CPU is the number one trick to accelerate speed. My favorite libraries are [NVIDIA cuDF][1] and [cuML][2] which accelerate dataframe operations and ML model train/infer respectively. And adding GPU to XGB is as easy as adding the parameter `"device":"cuda"`!
+
 ![](https://raw.githubusercontent.com/cdeotte/Kaggle_Images/refs/heads/main/Nov-2025/experiments.png)
 
 ## Local Validation
@@ -287,4 +288,5 @@ After finding optimal hyperparameters with KFold, we can retrain a single model 
 
 ![](https://raw.githubusercontent.com/cdeotte/Kaggle_Images/refs/heads/main/Nov-2025/kdd.png)
 
-
+[1]: https://developer.nvidia.com/topics/ai/data-science/cuda-x-data-science-libraries/cudf
+[2]: https://developer.nvidia.com/topics/ai/data-science/cuda-x-data-science-libraries/cuml
